@@ -3,27 +3,35 @@
 import { NavItem } from "vuepress/config";
 
 export default <Array<NavItem>>[
-  { text: "Home", link: "/" },
+  { text: "首页", link: "/" },
   {
-    text: "配置",
-    items: [
+    text: "前端笔记",
+    items:[
       {
-        text: "前端笔记",
-        link: "/start/",
+        text:'《vue》系列',
+        link:'/vue/'
       },
       {
-        text: "项目配置",
-        link: "/start/",
+        text:'《react》系列',
+        link:'/react/'
       },
       {
-        text: "部署",
-        link: "/deploy/",
+        text:'《uniApp》系列',
+        link:'/uniApp/'
       },
       {
-        text: "更多参考",
-        link: "/more/",
-      },
-    ],
+        text:'《微信小程序》系列',
+        link:'/wxApp/'
+      }
+    ]
+  },
+  {
+    text:'面试题',
+    link:'/interview/'
+  },
+  {
+    text:'技术总结',
+    link:'/summary/'
   },
   {
     text: "友情链接",
