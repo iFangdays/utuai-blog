@@ -8,6 +8,10 @@ export default <Array<NavItem>>[
     text: "配置",
     items: [
       {
+        text: "前端笔记",
+        link: "/start/",
+      },
+      {
         text: "项目配置",
         link: "/start/",
       },
