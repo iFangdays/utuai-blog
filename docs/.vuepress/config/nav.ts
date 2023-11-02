@@ -34,6 +34,23 @@ export default <Array<NavItem>>[
     link:'/summary/'
   },
   {
+    text:'速查索引',
+    items:[
+      {
+        text:'分类',
+        link:'/categories/'
+      },
+      {
+        text:'标签',
+        link:'/tags/'
+      },
+      {
+        text:'归档',
+        link:'/archives/'
+      }
+    ]
+  },
+  {
     text: "友情链接",
     items: [
       {
