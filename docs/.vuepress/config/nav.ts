@@ -31,7 +31,21 @@ export default <Array<NavItem>>[
   },
   {
     text:'技术总结',
-    link:'/summary/'
+    link:'/summary/',
+    items: [
+      {
+        text:'常用代码块',
+        link:'/pages/b54661/'
+      },
+      {
+        text:'命令合集',
+        link:'/'
+      },
+      {
+        text:'技巧分享',
+        link:'/pages/3ac198/'
+      }
+    ]
   },
   {
     text:'速查索引',
