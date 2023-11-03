@@ -39,7 +39,7 @@ export default <Array<NavItem>>[
       },
       {
         text:'命令合集',
-        link:'/'
+        link:'/pages/ad247c4332211551/'
       },
       {
         text:'技巧分享',

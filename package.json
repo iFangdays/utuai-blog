@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/u2sb/vuepress-theme-vdoing-template#readme",
   "dependencies": {
+    "chalk": "4.0.0",
+    "gray-matter": "^4.0.3",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-attrs": "^4.1.4",
     "markdown-it-footnote": "^3.0.3",
