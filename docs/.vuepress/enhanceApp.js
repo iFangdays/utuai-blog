@@ -8,7 +8,7 @@ export default ({
                 }) => {
   // ...做一些其他的应用级别的优化
   // 全局注入组件
-  Vue.use(ElementUI);
+  // Vue.use(ElementUI);
   Vue.mixin({
     // 混合注入,加载全局文件
     // mounted() {
