@@ -15,5 +15,9 @@ export default <HeadTags>[
       name: "baidu-site-verification",
       content: "codeva-HJDBxwx3Fd",
     },
-  ]
+  ],
+  [
+    'script',
+    { charset: 'utf-8', src: 'https://my.openwrite.cn/js/readmore.js' },
+  ],
 ];
