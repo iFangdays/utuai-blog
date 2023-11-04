@@ -1,3 +1,4 @@
+import * as $ from "jquery"
 // 使用异步函数也是可以的
 export default ({
                   Vue, // VuePress 正在使用的 Vue 构造函数
@@ -11,8 +12,20 @@ export default ({
   // Vue.use(ElementUI);
   Vue.mixin({
     // 混合注入,加载全局文件
-    // mounted() {
-    //   import('./components/HideArticle.vue');
-    // },
+    mounted() {
+      if(!this.$frontmatter.article){
+        const container = $('.theme-vdoing-wrapper>  .articleInfo-wrap + .content-wrapper .theme-vdoing-content');
+        if (!container) return;
+        container.attr('id', 'container');
+        window.btw = new BTWPlugin();
+        window.btw.init({
+          id: 'container',
+          blogId: '32233-1699069242965-284',
+          name: '乌图AI',
+          qrcode: 'https://www.utuai.com/assets/img/weixin.jpg',
+          keyword: 'uTuAIBlog',
+        });
+      }
+    }
   });
 };
