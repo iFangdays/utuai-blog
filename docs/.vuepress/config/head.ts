@@ -16,10 +16,10 @@ export default <HeadTags>[
       content: "codeva-HJDBxwx3Fd",
     },
   ],
-  [
-    'script',
-    { charset: 'utf-8', src: 'https://my.openwrite.cn/js/readmore.js' },
-  ],
+  // [
+  //   'script',
+  //   { charset: 'utf-8', src: 'https://my.openwrite.cn/js/readmore.js' },
+  // ],
   [
     "meta",
     { name: 'keywords', content: '网站搭建,小程序开发,抖音小程序开发,域名评估,chatGPT,AI'}

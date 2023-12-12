@@ -89,7 +89,7 @@ export default <VdoingThemeConfig>{
     createYear: 2023, // 博客创建年份
     copyrightInfo: `
       <a href='https://www.utuai.com' target='_blank'>乌图AI - uTuAi</a> | <a href="http://beian.miit.gov.cn/" target="_blank">ICP备案: 苏ICP备2023009865号</a>
-       | 邮箱: d752043344@gmail.com | 微信: 17375012340
+       | 邮箱: d752043344@gmail.com | 微信: 17375-012340
     `, // 博客版权信息，支持a标签
   },
 };
