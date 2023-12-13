@@ -22,6 +22,10 @@ export default <Array<NavItem>>[
       {
         text:'《微信小程序》系列',
         link:'/wxApp/'
+      },
+      {
+        text:'《其他》系列',
+        link:'/otherSeries/'
       }
     ]
   },
