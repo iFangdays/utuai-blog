@@ -38,6 +38,7 @@ article: false
 ## 博客
 * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
 * [samanthaming](https://www.samanthaming.com/) 对前端小知识点的总结，并为每个知识点制作精美的小卡片。
+* [优质PHP博客](https://www.htmlbk.com/)
 
 
 ## 电子书
