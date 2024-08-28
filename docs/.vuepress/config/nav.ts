@@ -51,10 +51,10 @@ export default <Array<NavItem>>[
       }
     ]
   },
-  {
-    text:'建站模板',
-    link:'/buildWeb/'
-  },
+  // {
+  //   text:'建站模板',
+  //   link:'/buildWeb/'
+  // },
   {
     text:'收藏夹',
     link:'/favorites/'

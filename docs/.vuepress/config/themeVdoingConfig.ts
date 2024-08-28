@@ -47,7 +47,7 @@ export default <VdoingThemeConfig>{
   author: {
     // 文章默认的作者信息，可在.md文件front matter中单独配置此信息 String | {name: String, link: String}
     name: "Fang_冬", // 必需
-    link: "http://www.utuai.com", // 可选的
+    link: "http://www.119czh.com", // 可选的
   },
 
   // 博主信息，显示在首页侧边栏
@@ -88,7 +88,7 @@ export default <VdoingThemeConfig>{
     // 页脚信息, 请根据实际情况修改, 删掉不需要的部分
     createYear: 2023, // 博客创建年份
     copyrightInfo: `
-      <a href='https://www.utuai.com' target='_blank'>乌图AI - uTuAi</a> | <a href="http://beian.miit.gov.cn/" target="_blank">ICP备案: 苏ICP备2023009865号</a>
+      <a href='https://www.119czh.com' target='_blank'>乌图AI - uTuAi</a> | <a href="http://beian.miit.gov.cn/" target="_blank">ICP备案: 苏ICP备2024122464号</a>
        | 邮箱: d752043344@gmail.com | 微信: 17375-012340
     `, // 博客版权信息，支持a标签
   },
